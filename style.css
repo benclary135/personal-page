@@ -1,0 +1,19 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    kerning: none;
+}
+
+.header-left {
+    font-size: 180px;
+    color: #00A5D5;
+}
+
