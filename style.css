@@ -6,15 +6,18 @@ body {
     flex-direction: column;
     justify-content: space-between;
     font-family: 'Poppins', sans-serif;
-    background-color: #F2AA4CFF;
+    /*background-color: #F2AA4CFF;*/
+    background-color: #FF7A22;
 }
 
 .header {
     display: flex;
+    flex: auto;
     flex-direction: row;
-    letter-spacing: 0px;
     justify-content: space-between;
-    height: 30vh;
+    margin-left: 32px;
+    margin-right: 32px;
+    max-height: 30vh;
 }
 
 .header-left {
@@ -27,9 +30,21 @@ body {
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;
+    align-items: flex-end;
     margin: 20px 20px 0 0;
     font-size: 2vw;
 }
 
+.image-row {
+    display: flex;
+    flex: auto;
+    margin: 30px 50px 0;
+    max-height: 60vh;
+    justify-content: space-between;
+    gap: 10px;
+}
 
-
+.sample-images {
+    max-height: 55vh;
+    width: auto;
+}
