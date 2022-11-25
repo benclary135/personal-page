@@ -1,12 +1,9 @@
-/* High-con orange: #3e55B00; */
-
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     font-family: 'Poppins', sans-serif;
-    /*background-color: #F2AA4CFF;*/
     background-color: #FF7A22;
 }
 
@@ -21,6 +18,7 @@ body {
 }
 
 .header-left {
+    flex-wrap: nowrap;
     font-size: 15vw;
     font-weight: 300;
     line-height: 14rem;
@@ -32,7 +30,7 @@ body {
     justify-content: space-between;
     align-items: flex-end;
     margin: 20px 20px 0 0;
-    font-size: 2vw;
+    font-size: 2em;
 }
 
 .image-row {
