@@ -15,7 +15,7 @@ a {
     color: black;
 }
 
-a:hover {
+.menu-links:hover {
     color: #666;
 }
 
@@ -131,4 +131,45 @@ a:hover {
 
 #contact-bottom-banner {
     width: 100%;
+}
+
+/*********** other sites styles ***********/
+
+#other-sites-bottom-banner {
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+}
+
+.other-sites-bottom-banner-container {
+    font-size: 25px;
+}
+
+.site-links:hover {
+    background-color: black;
+    color: #FF7A22;
+}
+
+#site-link-one {
+    position: absolute;
+    bottom: 300px;
+    left: 150px;
+}
+
+#site-link-two{
+    position: absolute;
+    bottom: 300px;
+    left: 400px;
+}
+
+#site-link-three {
+    position: absolute;
+    bottom: 300px;
+    right: 550px;
+}
+
+#site-link-four {
+    position: absolute;
+    bottom: 300px;
+    right: 150px;
 }
